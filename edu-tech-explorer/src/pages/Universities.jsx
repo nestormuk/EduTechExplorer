@@ -49,25 +49,25 @@ const UniversityPage = () => {
         <p className="mb-6">Explore universities from around the world.</p>
 
         {/* Search and Filter Section */}
-        <div className="mb-6 flex gap-4">
+        <div className="mb-6 grid grid-cols-1 md:grid-cols-3 gap-4">
           <input
             type="text"
             placeholder="Search by name"
-            className="px-4 py-2 border rounded-md"
+            className="px-4 py-2 border rounded-md w-full"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
           <input
             type="text"
             placeholder="Filter by location"
-            className="px-4 py-2 border rounded-md"
+            className="px-4 py-2 border rounded-md w-full"
             value={locationFilter}
             onChange={(e) => setLocationFilter(e.target.value)}
           />
           <input
             type="text"
             placeholder="Filter by notable faculties"
-            className="px-4 py-2 border rounded-md"
+            className="px-4 py-2 border rounded-md w-full"
             value={facultiesFilter}
             onChange={(e) => setFacultiesFilter(e.target.value)}
           />
