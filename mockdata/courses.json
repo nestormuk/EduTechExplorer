@@ -1,0 +1,304 @@
+{
+    "courses": [
+      {
+        "title": "Complete Python Bootcamp",
+        "provider": "Udemy",
+        "price": "$12.99",
+        "link": "https://www.udemy.com/course/complete-python-bootcamp/"
+      },
+      {
+        "title": "Machine Learning",
+        "provider": "Coursera (Stanford University)",
+        "price": "$79/month",
+        "link": "https://www.coursera.org/learn/machine-learning"
+      },
+      {
+        "title": "The Web Developer Bootcamp",
+        "provider": "Udemy",
+        "price": "$19.99",
+        "link": "https://www.udemy.com/course/the-web-developer-bootcamp/"
+      },
+      {
+        "title": "AWS Certified Solutions Architect - Associate",
+        "provider": "A Cloud Guru",
+        "price": "$39/month",
+        "link": "https://acloudguru.com/course/aws-certified-solutions-architect-associate"
+      },
+      {
+        "title": "CS50: Introduction to Computer Science",
+        "provider": "edX (Harvard University)",
+        "price": "Free ($199 for certificate)",
+        "link": "https://www.edx.org/course/cs50s-introduction-to-computer-science"
+      },
+      {
+        "title": "React - The Complete Guide",
+        "provider": "Udemy",
+        "price": "$13.99",
+        "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+      },
+      {
+        "title": "Deep Learning Specialization",
+        "provider": "Coursera (deeplearning.ai)",
+        "price": "$49/month",
+        "link": "https://www.coursera.org/specializations/deep-learning"
+      },
+      {
+        "title": "Complete SQL Bootcamp",
+        "provider": "Udemy",
+        "price": "$12.99",
+        "link": "https://www.udemy.com/course/the-complete-sql-bootcamp/"
+      },
+      {
+        "title": "Google Data Analytics Professional Certificate",
+        "provider": "Coursera (Google)",
+        "price": "$39/month",
+        "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
+      },
+      {
+        "title": "The Complete JavaScript Course",
+        "provider": "Udemy",
+        "price": "$15.99",
+        "link": "https://www.udemy.com/course/the-complete-javascript-course/"
+      },
+      {
+        "title": "Microsoft Azure Fundamentals (AZ-900)",
+        "provider": "Microsoft Learn",
+        "price": "Free (exam $99)",
+        "link": "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals/"
+      },
+      {
+        "title": "Agile Software Development",
+        "provider": "edX (University of Maryland)",
+        "price": "Free ($299 for certificate)",
+        "link": "https://www.edx.org/professional-certificate/usmx-agile-development"
+      },
+      {
+        "title": "Ultimate AWS Certified Solutions Architect Associate",
+        "provider": "Udemy",
+        "price": "$14.99",
+        "link": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/"
+      },
+      {
+        "title": "IBM Data Science Professional Certificate",
+        "provider": "Coursera (IBM)",
+        "price": "$39/month",
+        "link": "https://www.coursera.org/professional-certificates/ibm-data-science"
+      },
+      {
+        "title": "Complete 2025 Web Development Bootcamp",
+        "provider": "Udemy",
+        "price": "$19.99",
+        "link": "https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+      },
+      {
+        "title": "Cybersecurity Specialization",
+        "provider": "Coursera (University of Maryland)",
+        "price": "$49/month",
+        "link": "https://www.coursera.org/specializations/cyber-security"
+      },
+      {
+        "title": "Docker & Kubernetes: The Complete Guide",
+        "provider": "Udemy",
+        "price": "$17.99",
+        "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/"
+      },
+      {
+        "title": "Excel Skills for Business Specialization",
+        "provider": "Coursera (Macquarie University)",
+        "price": "$49/month",
+        "link": "https://www.coursera.org/specializations/excel"
+      },
+      {
+        "title": "Google IT Support Professional Certificate",
+        "provider": "Coursera (Google)",
+        "price": "$39/month",
+        "link": "https://www.coursera.org/professional-certificates/google-it-support"
+      },
+      {
+        "title": "UX Design Professional Certificate",
+        "provider": "Coursera (Google)",
+        "price": "$39/month",
+        "link": "https://www.coursera.org/professional-certificates/google-ux-design"
+      },
+      {
+        "title": "Fundamentals of Digital Marketing",
+        "provider": "Google Digital Garage",
+        "price": "Free",
+        "link": "https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing"
+      },
+      {
+        "title": "iOS & Swift - The Complete iOS App Development Bootcamp",
+        "provider": "Udemy",
+        "price": "$18.99",
+        "link": "https://www.udemy.com/course/ios-13-app-development-bootcamp/"
+      },
+      {
+        "title": "Full Stack Web Development with React",
+        "provider": "Coursera (Hong Kong University)",
+        "price": "$49/month",
+        "link": "https://www.coursera.org/specializations/full-stack-react"
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "provider": "Coursera (University of Michigan)",
+        "price": "$49/month",
+        "link": "https://www.coursera.org/specializations/python"
+      },
+      {
+        "title": "Tableau 2025 A-Z: Hands-On Tableau Training for Data Science",
+        "provider": "Udemy",
+        "price": "$12.99",
+        "link": "https://www.udemy.com/course/tableau-2020-a-z/"
+      },
+      {
+        "title": "Advanced React and Redux",
+        "provider": "Udemy",
+        "price": "$13.99",
+        "link": "https://www.udemy.com/course/react-redux-tutorial/"
+      },
+      {
+        "title": "Blockchain Specialization",
+        "provider": "Coursera (University at Buffalo)",
+        "price": "$49/month",
+        "link": "https://www.coursera.org/specializations/blockchain"
+      },
+      {
+        "title": "CompTIA A+ Certification",
+        "provider": "CompTIA",
+        "price": "$239 per exam",
+        "link": "https://www.comptia.org/certifications/a"
+      },
+      {
+        "title": "Complete Node.js Developer Course",
+        "provider": "Udemy",
+        "price": "$14.99",
+        "link": "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/"
+      },
+      {
+        "title": "TensorFlow Developer Professional Certificate",
+        "provider": "Coursera (deeplearning.ai)",
+        "price": "$49/month",
+        "link": "https://www.coursera.org/professional-certificates/tensorflow-in-practice"
+      },
+      {
+        "title": "Ethical Hacking - The Complete Course",
+        "provider": "Udemy",
+        "price": "$19.99",
+        "link": "https://www.udemy.com/course/learn-ethical-hacking-from-scratch/"
+      },
+      {
+        "title": "DevOps Engineer",
+        "provider": "Codecademy",
+        "price": "$39.99/month",
+        "link": "https://www.codecademy.com/learn/paths/devops-engineer"
+      },
+      {
+        "title": "Angular - The Complete Guide",
+        "provider": "Udemy",
+        "price": "$13.99",
+        "link": "https://www.udemy.com/course/the-complete-guide-to-angular-2/"
+      },
+      {
+        "title": "Responsive Web Design",
+        "provider": "freeCodeCamp",
+        "price": "Free",
+        "link": "https://www.freecodecamp.org/learn/responsive-web-design/"
+      },
+      {
+        "title": "Java Programming Masterclass",
+        "provider": "Udemy",
+        "price": "$15.99",
+        "link": "https://www.udemy.com/course/java-the-complete-java-developer-course/"
+      },
+      {
+        "title": "Product Management Specialization",
+        "provider": "Coursera (University of Virginia)",
+        "price": "$79/month",
+        "link": "https://www.coursera.org/specializations/product-management"
+      },
+      {
+        "title": "Google Cloud Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "price": "$200 for exam",
+        "link": "https://cloud.google.com/learn/certification/cloud-architect"
+      },
+      {
+        "title": "Modern React with Redux",
+        "provider": "Udemy",
+        "price": "$13.99",
+        "link": "https://www.udemy.com/course/react-redux/"
+      },
+      {
+        "title": "Flutter & Dart - The Complete Guide",
+        "provider": "Udemy",
+        "price": "$16.99",
+        "link": "https://www.udemy.com/course/flutter-bootcamp-with-dart/"
+      },
+      {
+        "title": "JavaScript Algorithms and Data Structures",
+        "provider": "freeCodeCamp",
+        "price": "Free",
+        "link": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
+      },
+      {
+        "title": "Artificial Intelligence",
+        "provider": "edX (Columbia University)",
+        "price": "Free ($300 for certificate)",
+        "link": "https://www.edx.org/professional-certificate/columbiax-artificial-intelligence"
+      },
+      {
+        "title": "Software Product Management Specialization",
+        "provider": "Coursera (University of Alberta)",
+        "price": "$49/month",
+        "link": "https://www.coursera.org/specializations/product-management"
+      },
+      {
+        "title": "Front End Developer Career Path",
+        "provider": "Scrimba",
+        "price": "$20/month",
+        "link": "https://scrimba.com/learn/frontend"
+      },
+      {
+        "title": "Data Science",
+        "provider": "DataCamp",
+        "price": "$25/month",
+        "link": "https://www.datacamp.com/tracks/data-scientist-with-python"
+      },
+      {
+        "title": "Kotlin for Android: Beginner to Advanced",
+        "provider": "Udemy",
+        "price": "$14.99",
+        "link": "https://www.udemy.com/course/kotlin-android/"
+      },
+      {
+        "title": "Natural Language Processing Specialization",
+        "provider": "Coursera (deeplearning.ai)",
+        "price": "$49/month",
+        "link": "https://www.coursera.org/specializations/natural-language-processing"
+      },
+      {
+        "title": "Salesforce Administrator Certification Prep",
+        "provider": "Trailhead",
+        "price": "Free (exam $200)",
+        "link": "https://trailhead.salesforce.com/en/credentials/administrator"
+      },
+      {
+        "title": "Practical JavaScript",
+        "provider": "Watch and Code",
+        "price": "Free",
+        "link": "https://watchandcode.com/p/practical-javascript"
+      },
+      {
+        "title": "Complete C# Unity Game Developer 2D",
+        "provider": "Udemy",
+        "price": "$14.99",
+        "link": "https://www.udemy.com/course/unitycourse/"
+      },
+      {
+        "title": "Professional Certificate in Six Sigma",
+        "provider": "edX (TUMx)",
+        "price": "$447",
+        "link": "https://www.edx.org/professional-certificate/tumx-six-sigma-and-lean"
+      }
+    ]
+  }

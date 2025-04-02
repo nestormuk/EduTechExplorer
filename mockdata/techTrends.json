@@ -1,0 +1,404 @@
+{
+    "techTrends": [
+      {
+        "id": 1,
+        "title": "Quantum Computing",
+        "shortDescription": "Computing technology using quantum mechanics principles to perform calculations exponentially faster than classical computers.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Quantum computing leverages quantum mechanical phenomena such as superposition and entanglement to process information in ways that classical computers cannot. Major players include IBM, Google, and Microsoft, with applications spanning cryptography, drug discovery, and complex system modeling.",
+        "link": "https://example.com/quantum-computing-trends-2025"
+      },
+      {
+        "id": 2,
+        "title": "Generative AI",
+        "shortDescription": "AI systems capable of creating new content including text, images, code, and music based on training data.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Generative AI has evolved from experimental technology to mainstream applications across industries. Models like GPT-4, Claude 3, and DALL-E 3 have transformed content creation, software development, and creative workflows, raising new questions about copyright, authenticity, and the future of human creativity.",
+        "link": "https://example.com/generative-ai-evolution-2025"
+      },
+      {
+        "id": 3,
+        "title": "Digital Twins",
+        "shortDescription": "Virtual replicas of physical objects, processes, or systems used for simulation and real-time monitoring.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Digital twins technology creates virtual representations that mirror physical entities in real-time. Applications span manufacturing, healthcare, urban planning, and automotive industries, enabling predictive maintenance, optimization, and scenario testing without risking physical assets.",
+        "link": "https://example.com/digital-twins-applications-2025"
+      },
+      {
+        "id": 4,
+        "title": "Edge AI",
+        "shortDescription": "AI processing directly on edge devices rather than in the cloud, enabling faster responses and improved privacy.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Edge AI brings artificial intelligence capabilities directly to devices at the network edge, reducing latency and bandwidth usage while improving privacy. This trend is accelerating with new specialized hardware and optimized AI models designed for constrained environments.",
+        "link": "https://example.com/edge-ai-innovation-2025"
+      },
+      {
+        "id": 5,
+        "title": "Autonomous Vehicles",
+        "shortDescription": "Self-driving transportation using AI, sensors, and connectivity to navigate without human intervention.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Autonomous vehicle technology continues to mature with advanced sensing, AI decision-making, and vehicle-to-everything (V2X) communication. While robotaxis operate in some urban areas, regulatory frameworks and public acceptance remain significant hurdles for widespread adoption.",
+        "link": "https://example.com/autonomous-vehicles-progress-2025"
+      },
+      {
+        "id": 6,
+        "title": "Extended Reality (XR)",
+        "shortDescription": "Umbrella term encompassing virtual reality (VR), augmented reality (AR), and mixed reality (MR) technologies.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "XR technologies are transforming entertainment, education, healthcare, and industrial operations. Lightweight, high-performance headsets and spatial computing platforms have driven adoption beyond gaming to practical workplace applications and immersive social experiences.",
+        "link": "https://example.com/extended-reality-applications-2025"
+      },
+      {
+        "id": 7,
+        "title": "Sustainable Tech",
+        "shortDescription": "Technologies specifically designed to reduce environmental impact and promote sustainability goals.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Sustainable technology encompasses carbon capture, renewable energy innovations, circular economy solutions, and green computing initiatives. Growing regulatory pressures and consumer demand have accelerated development and adoption across sectors, with sustainability becoming a core business imperative.",
+        "link": "https://example.com/sustainable-technology-innovations-2025"
+      },
+      {
+        "id": 8,
+        "title": "Blockchain Beyond Crypto",
+        "shortDescription": "Applications of distributed ledger technology beyond cryptocurrencies, including supply chain, identity, and governance.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Blockchain technology is finding practical applications in supply chain transparency, decentralized finance (DeFi), digital identity systems, and governance frameworks. Enterprise adoption has increased with more energy-efficient consensus mechanisms and industry-specific blockchain solutions.",
+        "link": "https://example.com/blockchain-enterprise-applications-2025"
+      },
+      {
+        "id": 9,
+        "title": "Neuromorphic Computing",
+        "shortDescription": "Computing architectures inspired by the human brain's neural structure and function.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Neuromorphic computing systems mimic the brain's neural architecture to process information more efficiently than traditional computing approaches. These systems excel at pattern recognition, sensory processing, and adaptability while consuming significantly less power, making them ideal for edge AI applications.",
+        "link": "https://example.com/neuromorphic-computing-breakthroughs-2025"
+      },
+      {
+        "id": 10,
+        "title": "Biotechnology Convergence",
+        "shortDescription": "Integration of biology with computational and engineering approaches to solve complex problems.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "The convergence of biotechnology with AI, nanotechnology, and advanced computing is accelerating breakthroughs in personalized medicine, synthetic biology, and biomanufacturing. This interdisciplinary approach is enabling new treatments, materials, and sustainable production methods.",
+        "link": "https://example.com/biotech-convergence-innovations-2025"
+      },
+      {
+        "id": 11,
+        "title": "5G and Beyond",
+        "shortDescription": "Next-generation wireless networks enabling higher bandwidth, lower latency, and massive IoT connectivity.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "As 5G deployment becomes widespread, focus is shifting to advanced applications leveraging its capabilities and early research into 6G technologies. These networks are enabling new use cases in smart cities, industrial automation, telemedicine, and immersive entertainment experiences.",
+        "link": "https://example.com/5g-6g-wireless-evolution-2025"
+      },
+      {
+        "id": 12,
+        "title": "Personalized Medicine",
+        "shortDescription": "Healthcare tailored to individual genetic profiles, lifestyle, and environmental factors using advanced analytics.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Personalized medicine is transforming healthcare through genomic sequencing, AI-powered diagnostics, and tailored treatment plans. The integration of wearable data, genetic information, and electronic health records enables more precise interventions and preventative care strategies.",
+        "link": "https://example.com/personalized-medicine-advances-2025"
+      },
+      {
+        "id": 13,
+        "title": "Zero Trust Security",
+        "shortDescription": "Cybersecurity approach assuming no implicit trust and requiring verification from everyone attempting to access resources.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Zero Trust security frameworks have become essential in distributed work environments and complex digital ecosystems. This approach implements continuous authentication, least privilege access, and microsegmentation to minimize breach impact and protect against sophisticated threats.",
+        "link": "https://example.com/zero-trust-security-implementation-2025"
+      },
+      {
+        "id": 14,
+        "title": "Serverless Computing",
+        "shortDescription": "Cloud computing execution model where the cloud provider manages infrastructure scaling automatically.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Serverless architectures continue to evolve with improved tooling, debugging capabilities, and performance. Organizations are increasingly adopting this approach for its operational efficiency, automatic scaling, and consumption-based pricing model that aligns costs with actual usage.",
+        "link": "https://example.com/serverless-computing-evolution-2025"
+      },
+      {
+        "id": 15,
+        "title": "Brain-Computer Interfaces",
+        "shortDescription": "Direct communication pathway between the brain and external devices without muscular intervention.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Brain-computer interface technology is advancing from medical applications toward broader use cases. Innovations in non-invasive techniques and signal processing algorithms are improving reliability while raising important questions about neurorights and cognitive privacy.",
+        "link": "https://example.com/brain-computer-interfaces-developments-2025"
+      },
+      {
+        "id": 16,
+        "title": "Low-Code/No-Code Development",
+        "shortDescription": "Software development platforms enabling application creation with minimal programming knowledge.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Low-code and no-code platforms are democratizing software development, allowing business users to create applications through visual interfaces and pre-built components. These tools are increasingly incorporating AI capabilities to further simplify complex development tasks and workflow automation.",
+        "link": "https://example.com/low-code-development-trends-2025"
+      },
+      {
+        "id": 17,
+        "title": "Spatial Computing",
+        "shortDescription": "Computing that digitally enhances and interacts with physical spaces through AR, VR, and sensor networks.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Spatial computing creates intelligent environments that blend digital and physical worlds through AR glasses, environmental sensing, and context-aware applications. This technology is transforming retail experiences, collaborative workspaces, architecture, and entertainment venues.",
+        "link": "https://example.com/spatial-computing-applications-2025"
+      },
+      {
+        "id": 18,
+        "title": "Synthetic Biology",
+        "shortDescription": "Engineering biological systems and redesigning organisms for useful purposes through genetic modification.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Synthetic biology is combining genetic engineering and computational tools to program living systems for applications in medicine, materials, and sustainable manufacturing. Advances in CRISPR technology, DNA synthesis, and biological modeling are accelerating the field's development.",
+        "link": "https://example.com/synthetic-biology-innovations-2025"
+      },
+      {
+        "id": 19,
+        "title": "Federated Learning",
+        "shortDescription": "Machine learning technique training algorithms across multiple devices without exchanging raw data.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Federated learning enables AI model training across distributed devices while keeping data local, addressing privacy concerns in healthcare, finance, and mobile applications. This approach is especially valuable in regulated industries where data sharing is restricted by compliance requirements.",
+        "link": "https://example.com/federated-learning-applications-2025"
+      },
+      {
+        "id": 20,
+        "title": "Human Augmentation",
+        "shortDescription": "Technologies enhancing human capabilities through wearables, implants, and biological modifications.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Human augmentation technologies range from exoskeletons and advanced prosthetics to cognitive enhancement tools and sensory extensions. These innovations are improving quality of life for people with disabilities while raising questions about accessibility and the definition of human capability.",
+        "link": "https://example.com/human-augmentation-developments-2025"
+      },
+      {
+        "id": 21,
+        "title": "Green Cloud Computing",
+        "shortDescription": "Cloud services and infrastructure designed to minimize environmental impact and energy consumption.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Green cloud computing encompasses energy-efficient data centers, renewable power sources, and optimized resource allocation algorithms. Cloud providers are increasingly competing on sustainability metrics, driving innovations in cooling technology, server efficiency, and carbon-aware computing.",
+        "link": "https://example.com/green-cloud-innovations-2025"
+      },
+      {
+        "id": 22,
+        "title": "Ambient Intelligence",
+        "shortDescription": "Environments with embedded technology that responds intelligently to human presence and needs.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Ambient intelligence creates responsive environments that adapt to user needs through distributed sensors, context awareness, and predictive capabilities. These systems blend seamlessly into daily life, anticipating requirements and providing assistance without explicit commands.",
+        "link": "https://example.com/ambient-intelligence-applications-2025"
+      },
+      {
+        "id": 23,
+        "title": "Responsible AI",
+        "shortDescription": "Frameworks and technologies ensuring AI systems are ethical, transparent, fair, and accountable.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Responsible AI practices have moved from theoretical principles to practical implementation with standardized tools for bias detection, explainability, and governance. Organizations are adopting structured approaches to ethical AI development in response to regulatory requirements and public expectations.",
+        "link": "https://example.com/responsible-ai-practices-2025"
+      },
+      {
+        "id": 24,
+        "title": "Robotic Process Automation (RPA)",
+        "shortDescription": "Software robots automating repetitive business processes by mimicking human interactions with digital systems.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "RPA has evolved beyond simple task automation to intelligent automation combining AI, process mining, and low-code development. These integrated platforms enable end-to-end automation of complex business processes with human oversight for exceptions and edge cases.",
+        "link": "https://example.com/rpa-intelligent-automation-2025"
+      },
+      {
+        "id": 25,
+        "title": "Programmable Materials",
+        "shortDescription": "Materials that can change properties in response to stimuli or programming.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Programmable materials with properties that can be dynamically altered are enabling applications from self-healing infrastructure to shape-shifting objects. Advances in material science, nanotechnology, and computational design are accelerating development of these adaptive substances.",
+        "link": "https://example.com/programmable-materials-innovations-2025"
+      },
+      {
+        "id": 26,
+        "title": "Autonomous Robotics",
+        "shortDescription": "Robots capable of performing complex tasks without human supervision in varied environments.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Autonomous robotics is expanding beyond controlled industrial settings to more complex environments including agriculture, healthcare, retail, and logistics. Advances in computer vision, tactile sensing, and reinforcement learning are enabling robots to handle unpredictable situations with greater adaptability.",
+        "link": "https://example.com/autonomous-robotics-applications-2025"
+      },
+      {
+        "id": 27,
+        "title": "Satellite Internet Constellations",
+        "shortDescription": "Networks of low Earth orbit satellites providing global broadband internet access.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Satellite internet constellations are transforming connectivity for remote and underserved regions. As competition increases between providers, innovations in satellite design, ground terminals, and spectrum utilization are improving performance while raising questions about orbital congestion and astronomy impact.",
+        "link": "https://example.com/satellite-internet-developments-2025"
+      },
+      {
+        "id": 28,
+        "title": "Digital Health Platforms",
+        "shortDescription": "Integrated systems connecting patients, providers, and health data for coordinated care delivery.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Digital health platforms are bringing together telemedicine, remote monitoring, electronic health records, and patient engagement tools into unified ecosystems. These platforms are enabling care coordination, preventative interventions, and data-driven clinical decision support across the care continuum.",
+        "link": "https://example.com/digital-health-platforms-evolution-2025"
+      },
+      {
+        "id": 29,
+        "title": "Hyperautomation",
+        "shortDescription": "Integrated approach combining multiple technologies to automate complex business processes end-to-end.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Hyperautomation leverages AI, process mining, RPA, and low-code platforms to create comprehensive automation solutions. Organizations are implementing these integrated approaches to automate knowledge work, decision-making processes, and complex workflows that previously required human judgment.",
+        "link": "https://example.com/hyperautomation-strategies-2025"
+      },
+      {
+        "id": 30,
+        "title": "Computational Chemistry",
+        "shortDescription": "Using advanced computing to simulate chemical systems and discover new materials and drugs.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Computational chemistry combines quantum mechanics, molecular dynamics, and machine learning to accelerate discovery of new materials, catalysts, and pharmaceuticals. These approaches reduce the need for physical experiments, shortening development timelines and enabling exploration of broader chemical spaces.",
+        "link": "https://example.com/computational-chemistry-breakthroughs-2025"
+      },
+      {
+        "id": 31,
+        "title": "Cybersecurity Mesh",
+        "shortDescription": "Distributed security architecture applying controls based on identity rather than physical network boundaries.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Cybersecurity mesh architecture distributes security controls throughout the network rather than at perimeters, enabling consistent protection for distributed assets. This approach integrates identity verification, access management, and threat detection across hybrid environments with centralized orchestration.",
+        "link": "https://example.com/cybersecurity-mesh-implementation-2025"
+      },
+      {
+        "id": 32,
+        "title": "Precision Agriculture",
+        "shortDescription": "Data-driven farming using sensors, drones, and analytics to optimize crop yields and resource usage.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Precision agriculture leverages IoT sensors, satellite imagery, and predictive analytics to enable farm management at unprecedented granularity. These technologies optimize irrigation, fertilization, and pest management while reducing environmental impact and increasing food production efficiency.",
+        "link": "https://example.com/precision-agriculture-innovations-2025"
+      },
+      {
+        "id": 33,
+        "title": "Composable Applications",
+        "shortDescription": "Software built from interchangeable business capability modules that can be reconfigured for different needs.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Composable application architecture enables organizations to assemble business capabilities from modular components connected through APIs. This approach increases agility and resilience by allowing rapid reconfiguration of digital services in response to changing market conditions.",
+        "link": "https://example.com/composable-applications-architecture-2025"
+      },
+      {
+        "id": 34,
+        "title": "Advanced Energy Storage",
+        "shortDescription": "Next-generation battery and alternative storage technologies enabling renewable energy integration.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Advanced energy storage technologies including solid-state batteries, flow batteries, and gravity-based systems are enabling greater renewable energy integration and grid stability. These innovations are critical for electrification of transportation and transition to sustainable energy systems.",
+        "link": "https://example.com/energy-storage-innovations-2025"
+      },
+      {
+        "id": 35,
+        "title": "Confidential Computing",
+        "shortDescription": "Protecting data in use through hardware-based trusted execution environments.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Confidential computing protects sensitive data during processing by isolating computations in secure hardware enclaves. This technology enables secure multi-party computation and privacy-preserving analytics in regulated industries and multi-tenant cloud environments.",
+        "link": "https://example.com/confidential-computing-applications-2025"
+      },
+      {
+        "id": 36,
+        "title": "Quantum Networking",
+        "shortDescription": "Communication infrastructure leveraging quantum properties for ultra-secure data transmission.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Quantum networking uses quantum entanglement and superposition to create communication channels with unprecedented security properties. Early deployments focus on quantum key distribution, with longer-term potential for distributed quantum computing and quantum internet infrastructure.",
+        "link": "https://example.com/quantum-networking-developments-2025"
+      },
+      {
+        "id": 37,
+        "title": "Smart Textiles",
+        "shortDescription": "Fabrics and fibers with embedded electronics, sensors, or other functional capabilities.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Smart textiles integrate sensing, computing, and connectivity capabilities into wearable fabrics. Applications range from health monitoring garments and adaptive thermal regulation to gestural interfaces and energy harvesting materials for consumer, medical, and industrial use cases.",
+        "link": "https://example.com/smart-textiles-applications-2025"
+      },
+      {
+        "id": 38,
+        "title": "Multiexperience Platforms",
+        "shortDescription": "Development environments creating consistent user experiences across multiple touchpoints and modalities.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Multiexperience platforms enable organizations to create cohesive experiences across devices, modalities, and interaction patterns. These tools support voice, touch, gesture, and immersive interfaces within unified development environments that adapt to user context and preferences.",
+        "link": "https://example.com/multiexperience-platforms-trends-2025"
+      },
+      {
+        "id": 39,
+        "title": "Homomorphic Encryption",
+        "shortDescription": "Cryptographic technique allowing computation on encrypted data without decryption.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Homomorphic encryption enables secure processing of sensitive information without exposing the underlying data. Performance improvements and specialized hardware acceleration are making this technology practical for privacy-preserving analytics, secure multi-party computation, and confidential cloud services.",
+        "link": "https://example.com/homomorphic-encryption-applications-2025"
+      },
+      {
+        "id": 40,
+        "title": "Data Fabric Architecture",
+        "shortDescription": "Integrated data architecture providing unified management across distributed environments.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Data fabric architectures create consistent data access, governance, and integration across diverse sources and destinations. These frameworks enable organizations to manage data holistically regardless of location, format, or processing environment, supporting hybrid cloud and edge computing strategies.",
+        "link": "https://example.com/data-fabric-implementation-2025"
+      },
+      {
+        "id": 41,
+        "title": "IoT Security",
+        "shortDescription": "Specialized security approaches protecting internet-connected devices and their data.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "IoT security has evolved from an afterthought to a fundamental design requirement with dedicated frameworks, standards, and technologies. Approaches including device attestation, secure boot, managed PKI, and lightweight encryption are protecting the expanding attack surface of connected devices.",
+        "link": "https://example.com/iot-security-strategies-2025"
+      },
+      {
+        "id": 42,
+        "title": "Decision Intelligence",
+        "shortDescription": "Framework combining data science, social science, and management techniques to improve decision-making.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Decision intelligence augments human judgment with AI-powered analysis, scenario modeling, and impact assessment. These platforms integrate multiple data sources, domain knowledge, and behavioral science to support complex decisions with transparent reasoning and quantified uncertainty.",
+        "link": "https://example.com/decision-intelligence-frameworks-2025"
+      },
+      {
+        "id": 43,
+        "title": "Digital Ethics",
+        "shortDescription": "Frameworks for evaluating moral implications of digital technologies and their societal impact.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Digital ethics has evolved from theoretical principles to practical governance frameworks with concrete assessment methodologies and accountability mechanisms. Organizations are implementing ethics review processes, impact assessments, and stakeholder engagement practices throughout technology lifecycles.",
+        "link": "https://example.com/digital-ethics-governance-2025"
+      },
+      {
+        "id": 44,
+        "title": "Smart Cities Integration",
+        "shortDescription": "Comprehensive urban technology ecosystems connecting infrastructure, services, and citizens.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Smart city initiatives are maturing from isolated technology pilots to comprehensive platforms integrating mobility, energy, public safety, and citizen services. These approaches emphasize interoperability, data sharing, and collaborative governance to address complex urban challenges holistically.",
+        "link": "https://example.com/smart-cities-integration-2025"
+      },
+      {
+        "id": 45,
+        "title": "Emotion AI",
+        "shortDescription": "AI systems that detect, interpret, and respond to human emotional states.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Emotion AI combines computer vision, voice analysis, and natural language processing to recognize human emotional states. Applications span customer experience, mental health support, automotive safety, and education, with growing attention to ethical considerations and consent frameworks.",
+        "link": "https://example.com/emotion-ai-applications-2025"
+      },
+      {
+        "id": 46,
+        "title": "DevSecOps",
+        "shortDescription": "Software development approach integrating security throughout the development lifecycle.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "DevSecOps practices embed security into every phase of software development and operations through automated testing, policy-as-code, and security instrumentation. This approach addresses the velocity of modern development by making security a shared responsibility rather than a separate function.",
+        "link": "https://example.com/devsecops-implementation-2025"
+      },
+      {
+        "id": 47,
+        "title": "Conversational AI Platforms",
+        "shortDescription": "Integrated systems enabling natural language interactions across multiple channels and use cases.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Conversational AI platforms have evolved from simple chatbots to sophisticated ecosystems supporting omnichannel engagement with contextual awareness. These systems combine large language models, domain-specific knowledge, and enterprise integrations to deliver personalized, consistent interactions.",
+        "link": "https://example.com/conversational-ai-platforms-2025"
+      },
+      {
+        "id": 48,
+        "title": "Advanced Process Mining",
+        "shortDescription": "Techniques analyzing business process data to discover, monitor, and improve operational efficiency.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Process mining has matured from diagnostic tool to predictive platform, automatically discovering process flows from system logs and identifying optimization opportunities. Integration with RPA and AI enables closed-loop automation where processes continuously optimize based on operational data.",
+        "link": "https://example.com/process-mining-automation-2025"
+      },
+      {
+        "id": 49,
+        "title": "Sustainable Computing",
+        "shortDescription": "Practices and technologies minimizing environmental impact of computing systems throughout their lifecycle.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Sustainable computing encompasses energy-efficient hardware, carbon-aware software, circular supply chains, and extended device lifecycles. Organizations are increasingly measuring and optimizing their digital environmental footprint as part of broader sustainability commitments.",
+        "link": "https://example.com/sustainable-computing-practices-2025"
+      },
+      {
+        "id": 50,
+        "title": "Total Experience Strategy",
+        "shortDescription": "Holistic approach integrating customer, employee, and user experiences across touchpoints.",
+        "imagePlaceholder": "/api/placeholder/400/300",
+        "detailedDescription": "Total experience strategies unify customer experience, employee experience, and user experience design under coherent principles and governance. This approach recognizes the interdependence of stakeholder experiences and leverages shared technology platforms to create consistent engagement.",
+        "link": "https://example.com/total-experience-strategy-2025"
+      }
+    ]
+  }
