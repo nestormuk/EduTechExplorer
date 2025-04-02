@@ -18,9 +18,9 @@ function App() {
           <Route path="/university/:name" element={<UniversityDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-     
+        <SpeedInsights />
     </Router>
-    <SpeedInsights />
+    
     </div>
   )
 }
