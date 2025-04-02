@@ -1,5 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import Header from  "../components/Header";
+import Footer from "../components/Footer"; 
 
 const UniversityDetail = () => {
   const { name } = useParams();
@@ -27,34 +29,49 @@ const UniversityDetail = () => {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center p-6">
-        <div className="animate-spin h-8 w-8 border-4 border-blue-600 border-t-transparent rounded-full"></div>
+      <div>
+        <Header />
+        <div className="flex justify-center items-center p-6">
+          <div className="animate-spin h-8 w-8 border-4 border-blue-600 border-t-transparent rounded-full"></div>
+        </div>
+        <Footer />
       </div>
+      
     );
   }
 
   if (!university) {
-    return <p className="text-red-600 p-6">University not found.</p>;
+    return (
+      <div>
+        <Header />
+        <p className="text-red-600 p-6">University not found.</p>;
+        <Footer />
+      </div>
+    ) 
   }
 
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold">{university.name}</h1>
-      <p><strong>Country:</strong> {university.country}</p>
-      <p><strong>Founded:</strong> {university.foundedYear}</p>
-      <p><strong>Location:</strong> {university.location}</p>
-      <p><strong>Type:</strong> {university.type}</p>
-      <p><strong>Enrollment:</strong> {university.enrollment}</p>
-      <p><strong>Rank in Africa:</strong> {university.rankedInAfrica}</p>
-      <p><strong>Notable Faculties:</strong> {university.notableFaculties.join(", ")}</p>
-      <p>
-        <strong>Website:</strong>{" "}
-        <a href={`https://${university.websiteUrl}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
-          {university.websiteUrl}
-        </a>
-      </p>
-      <p><strong>Research Output:</strong> {university.researchOutput}</p>
-      <p><strong>International Students:</strong> {university.internationalStudents}</p>
+    <div>
+      <Header />
+        <div className="p-6">
+        <h1 className="text-2xl font-bold">{university.name}</h1>
+        <p><strong>Country:</strong> {university.country}</p>
+        <p><strong>Founded:</strong> {university.foundedYear}</p>
+        <p><strong>Location:</strong> {university.location}</p>
+        <p><strong>Type:</strong> {university.type}</p>
+        <p><strong>Enrollment:</strong> {university.enrollment}</p>
+        <p><strong>Rank in Africa:</strong> {university.rankedInAfrica}</p>
+        <p><strong>Notable Faculties:</strong> {university.notableFaculties.join(", ")}</p>
+        <p>
+          <strong>Website:</strong>{" "}
+          <a href={`https://${university.websiteUrl}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+            {university.websiteUrl}
+          </a>
+        </p>
+        <p><strong>Research Output:</strong> {university.researchOutput}</p>
+        <p><strong>International Students:</strong> {university.internationalStudents}</p>
+      </div>
+        <Footer />
     </div>
   );
 };
