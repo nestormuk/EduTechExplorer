@@ -5,6 +5,7 @@ import UniversityDetail from './pages/UniversityDetail';
 import UniversityPage from './pages/Universities';
 import NotFound from './pages/NotFound';
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
         <SpeedInsights />
+        <Analytics />
     </Router>
     
     </div>
