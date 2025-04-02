@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import UniversityDetail from './pages/UniversityDetail';
 import UniversityPage from './pages/Universities';
 import NotFound from './pages/NotFound';
-import { SpeedInsights } from '@vercel/speed-insights/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
