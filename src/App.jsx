@@ -6,6 +6,8 @@ import UniversityPage from './pages/Universities';
 import NotFound from './pages/NotFound';
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Analytics } from "@vercel/analytics/react"
+import CourseDetail from './pages/CourseDetail';
+import Courses from './pages/Courses';
 
 function App() {
   return (
@@ -15,8 +17,13 @@ function App() {
     
         <Routes>
           <Route path="/" element={<Home />} />
+          
           <Route path="/universities" element={<UniversityPage />} />
           <Route path="/university/:name" element={<UniversityDetail />} />
+
+          <Route path="/courses" element={<Courses />} />
+          <Routes path="course/:id" element={<CourseDetail />} />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
         <SpeedInsights />
