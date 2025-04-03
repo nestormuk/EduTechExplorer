@@ -21,13 +21,13 @@ const Footer = () => {
           {/* Quick Links */}
           <div className="flex flex-col md:ml-12 md:w-1/4">
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
-            <div className="text-sm space-y-2">
+            <div className="text-sm space-y-2 flex flex-col" >
 
-            <Link to="/" className="hover:text-blue-500">Home</Link>
-            <Link to="/universities" className="hover:text-blue-500">Universities</Link>
-            <Link to="/courses" className="hover:text-blue-500">Courses</Link>
-            <Link to="/tech-trends" className="hover:text-blue-500">Tech Trends</Link>
-            <Link to="/about" className="hover:text-blue-500">About</Link>
+              <Link to="/" className="hover:text-blue-500">Home</Link>
+              <Link to="/universities" className="hover:text-blue-500">Universities</Link>
+              <Link to="/courses" className="hover:text-blue-500">Courses</Link>
+              <Link to="/tech-trends" className="hover:text-blue-500">Tech Trends</Link>
+              <Link to="/about" className="hover:text-blue-500">About</Link>
 
             </div>
           </div>
