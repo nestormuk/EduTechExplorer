@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { MapPin } from "lucide-react"; // Location icon
+import { MapPin } from "lucide-react"; 
 
 const UniversityCard = ({ university }) => {
   const navigate = useNavigate();
