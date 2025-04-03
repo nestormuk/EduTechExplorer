@@ -1,8 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { FaGlobe, FaUniversity, FaMapMarkerAlt, FaUserGraduate, FaUsers, FaBook, FaChartBar, FaSpinner, FaExclamationTriangle, FaImage } from "react-icons/fa";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+
 
 const UniversityDetail = () => {
   const { name } = useParams();

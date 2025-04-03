@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import UniversityCard from "../components/UniversityCard";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 const UniversityPage = () => {
   const [universities, setUniversities] = useState([]);
