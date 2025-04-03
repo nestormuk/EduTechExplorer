@@ -64,11 +64,11 @@ const UniversityDetail = () => {
   if (loading) {
     return (
       <div>
-        <Header />
+       
         <div className="flex justify-center items-center p-6">
           <FaSpinner className="animate-spin text-blue-600 text-4xl" />
         </div>
-        <Footer />
+       
       </div>
     );
   }
@@ -76,18 +76,18 @@ const UniversityDetail = () => {
   if (!university) {
     return (
       <div>
-        <Header />
+       
         <div className="flex justify-center items-center p-6 text-red-600">
           <FaExclamationTriangle className="text-2xl mr-2" /> University not found.
         </div>
-        <Footer />
+       
       </div>
     );
   }
 
   return (
     <div>
-      <Header />
+     
       <div className="p-6 space-y-4">
         <h1 className="text-3xl font-bold flex items-center gap-2">
           <FaUniversity className="text-blue-600" /> {university.name}
@@ -111,7 +111,7 @@ const UniversityDetail = () => {
           </a>
         </p>
       </div>
-      <Footer />
+      
     </div>
   );
 };

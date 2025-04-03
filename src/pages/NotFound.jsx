@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const NotFound = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
+     
 
       
       <div className="flex-grow flex flex-col items-center justify-center text-center px-6">
@@ -19,7 +19,7 @@ const NotFound = () => {
         </Link>
       </div>
 
-      <Footer />
+     
     </div>
   );
 };

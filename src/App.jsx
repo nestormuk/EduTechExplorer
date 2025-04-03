@@ -8,24 +8,27 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Analytics } from "@vercel/analytics/react"
 import CourseDetail from './pages/CourseDetail';
 import Courses from './pages/Courses';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       
       <Router>
-    
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          
+
           <Route path="/universities" element={<UniversityPage />} />
           <Route path="/university/:name" element={<UniversityDetail />} />
 
           <Route path="/courses" element={<Courses />} />
-          <Routes path="course/:id" element={<CourseDetail />} />
+          <Route path="/course/:id" element={<CourseDetail />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
         <SpeedInsights />
         <Analytics />
     </Router>

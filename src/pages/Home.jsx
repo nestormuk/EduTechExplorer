@@ -7,10 +7,8 @@ import UniversitySection from '../components/UniversitySection'
 function Home() {
   return (
     <div>
-      <Header />
       <HeroSection />
       <UniversitySection />
-      <Footer />
     </div>
   )
 }
