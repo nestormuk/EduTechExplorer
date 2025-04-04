@@ -5,7 +5,7 @@ const CourseCard = ({ title, provider, price, link }) => {
     <div className="bg-white shadow-lg rounded-2xl p-4 w-80 border border-gray-200">
       <h2 className="text-xl font-semibold text-gray-800">{title}</h2>
       <p className="text-sm text-gray-600 mt-1">Provider: {provider}</p>
-      <p className="text-lg font-bold text-blue-500 mt-2">${price}</p>
+      <p className="text-lg font-bold text-blue-500 mt-2">{price}</p>
       <a
         href={link}
         target="_blank"

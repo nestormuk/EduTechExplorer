@@ -16,7 +16,7 @@ const UniversitySection = () => {
         return response.json();
       })
       .then((data) => {
-        setUniversities(data.slice(0, 3)); // Get only the first 3
+        setUniversities(data.slice(0, 3)); 
         setLoading(false);
       })
       .catch((error) => {
@@ -30,7 +30,7 @@ const UniversitySection = () => {
       <h2 className="text-2xl font-bold mb-4">Top Universities</h2>
 
       {loading ? (
-        // Loader (You can replace this with a spinner animation)
+       
         <div className="flex justify-center items-center">
           <div className="animate-spin h-8 w-8 border-4 border-blue-600 border-t-transparent rounded-full"></div>
         </div>
