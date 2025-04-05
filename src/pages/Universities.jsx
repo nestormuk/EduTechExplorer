@@ -13,12 +13,12 @@ const UniversityPage = () => {
       .then((response) => response.json())
       .then((data) => {
         setUniversities(data);
-        setFilteredUniversities(data); // Initialize with all universities
+        setFilteredUniversities(data);
       })
       .catch((error) => console.error("Error loading university data:", error));
   }, []);
 
-  // Filter universities based on search query and selected filters
+
   useEffect(() => {
     const filtered = universities.filter((university) => {
       const matchesSearchQuery = university.name
