@@ -20,7 +20,7 @@ We're excited to showcase institutions that are shaping the future of learning!
               
               <div className="w-full max-w-md mb-6">
                 <img 
-                  src="public\Maintenance-bro.png" 
+                  src="/Maintenance-bro.png" 
                   alt="Maintenance Illustration" 
                   className="w-full object-contain rounded-lg"
                 />
