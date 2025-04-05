@@ -10,15 +10,17 @@ import CourseDetail from './pages/CourseDetail';
 import Courses from './pages/Courses';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import AboutUs from './pages/AboutUs';
+import TechTrends from './pages/TechTrends';
 
 function App() {
   return (
     <div>
       
       <Router>
-        <div >
+        
         <Header />
-        </div>
+       
         
         <Routes>
           <Route path="/" element={<Home />} />
@@ -28,6 +30,10 @@ function App() {
 
           <Route path="/courses" element={<Courses />} />
           <Route path="/course/:id" element={<CourseDetail />} />
+
+          <Route path="/about" element={<AboutUs />} />
+
+          <Route path="/tech-trends" element={<TechTrends />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
