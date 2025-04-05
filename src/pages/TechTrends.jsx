@@ -20,7 +20,7 @@ function TechTrends() {
           
           <div className="w-full max-w-md mb-6">
             <img 
-              src="/public/Maintenance-bro.png" 
+              src="public\Maintenance-bro.png" 
               alt="Maintenance Illustration" 
               className="w-full object-contain rounded-lg"
             />
