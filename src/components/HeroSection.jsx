@@ -1,4 +1,8 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 export default function HeroSection() {
+    const navigate = useNavigate();
     return (
       <section className="bg-white text-black py-20 px-6 text-center">
         {/* Hero Text */}
@@ -14,11 +18,14 @@ export default function HeroSection() {
   
         {/* Buttons */}
         <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center">
-          <button className="bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-600 transition">
+          <button className="bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-600 transition"
+            onClick={() => navigate("/universities")}
+          >
             Explore Universities
           </button>
-          <button className="border border-blue-500 text-blue-500 px-6 py-3 rounded-lg shadow-md hover:bg-blue-500 hover:text-white transition">
-            View More Tech Trends
+          <button className="border border-blue-500 text-blue-500 px-6 py-3 rounded-lg shadow-md hover:bg-blue-500 hover:text-white transition"
+            onClick={() => navigate("/courses")}  >
+            View More Courses
           </button>
         </div>
   
