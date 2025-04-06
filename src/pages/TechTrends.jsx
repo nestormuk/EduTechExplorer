@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function TechTrends() {
     const navigate = useNavigate();
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-blue-50 to-white p-6 text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-blue-50 to-white p-6 mt-10 text-center">
       <div className="max-w-3xl bg-white rounded-xl shadow-lg p-8 mx-auto">
         <h1 className="text-3xl font-bold text-blue-800 mb-2">Tech Trends</h1>
         <div className="h-1 w-24 bg-blue-500 mx-auto mb-6 rounded-full"></div>
