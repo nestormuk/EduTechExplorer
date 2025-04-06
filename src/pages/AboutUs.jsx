@@ -7,7 +7,7 @@ const AboutPage = () => {
       {/* About Us Section */}
       <section className="grid md:grid-cols-2 gap-6 items-center">
         <img
-          src="/About us page-cuate.png"
+          src="/About-us-page-cuate.png"
           alt="About Us"
           className="w-full h-auto"
         />
