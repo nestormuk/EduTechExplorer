@@ -12,6 +12,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs';
 import TechTrends from './pages/TechTrends';
+import Maintenance from './components/Maintenance';
 
 function App() {
   return (
@@ -21,8 +22,6 @@ function App() {
         <div className='fixed top-0 left-0 right-0 z-50'>
         <Header  />
         </div>
-        
-       
         
         <Routes>
           <Route path="/" element={<Home />} />
@@ -36,6 +35,12 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
 
           <Route path="/tech-trends" element={<TechTrends />} />
+
+          <Route path="/blog" element={<Maintenance />} />
+          <Route path="/career-advice" element={<Maintenance />} />
+          <Route path="/success-stories" element={<Maintenance />} />
+          <Route path="/faq" element={<Maintenance />} />
+          <Route path="/support" element={<Maintenance />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

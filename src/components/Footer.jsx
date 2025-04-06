@@ -35,13 +35,13 @@ const Footer = () => {
           {/* Resources */}
           <div className="flex flex-col md:ml-12 md:w-1/4 mt-4 md:mt-0">
             <h3 className="text-lg font-semibold mb-2">Resources</h3>
-            <ul className="text-sm space-y-2">
-              <li><a href="/blog" className="hover:underline">Blog</a></li>
-              <li><a href="/career-advice" className="hover:underline">Career Advice</a></li>
-              <li><a href="/success-stories" className="hover:underline">Success Stories</a></li>
-              <li><a href="/faq" className="hover:underline">FAQ</a></li>
-              <li><a href="/support" className="hover:underline">Support</a></li>
-            </ul>
+            <div className="text-sm space-y-2 flex flex-col" >
+              <Link to="/blog" className="hover:underline" >Blog</Link>
+              <Link to="/career-advice" className="hover:underline" >Career Advice</Link>
+              <Link to="/success-stories" className="hover:underline" >Success Stories</Link>
+              <Link to="/faq" className="hover:underline" >FAQ</Link>
+              <Link to="/support" className="hover:underline" >Support</Link>
+           </div>
           </div>
 
           {/* Contact */}
