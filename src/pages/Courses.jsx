@@ -12,17 +12,29 @@ const Courses = () => {
   const [selectedProvider, setSelectedProvider] = useState('');
   const [priceRange, setPriceRange] = useState(2000);
   
-  // Get unique providers for the dropdown
   const [providers, setProviders] = useState([]);
 
-  // Function to parse price string to number (e.g., "$12.99" to 12.99)
+  // Helpers
   const parsePriceToNumber = (priceString) => {
     if (!priceString) return 0;
-    return parseFloat(priceString.replace(/[^0-9.]/g, ''));
+    const lower = priceString.toLowerCase();
+    if (lower.includes("free")) {
+      const match = priceString.match(/\$([\d.]+)/);
+      return match ? parseFloat(match[1]) : 0;
+    }
+    const allMatches = priceString.match(/\$([\d.]+)/g);
+    if (!allMatches) return 0;
+    const prices = allMatches.map(p => parseFloat(p.replace('$', '')));
+    return Math.min(...prices);
+  };
+
+  const extractAllPrices = (priceString) => {
+    const allMatches = priceString.match(/\$([\d.]+)/g);
+    return allMatches ? allMatches.map(p => parseFloat(p.replace('$', ''))) : [];
   };
 
   useEffect(() => {
-    fetch("/mockdata/courses.json") 
+    fetch("/mockdata/courses.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch course data");
@@ -30,17 +42,15 @@ const Courses = () => {
         return response.json();
       })
       .then((data) => {
-        setCourses(data.courses); 
+        setCourses(data.courses);
         setFilteredCourses(data.courses);
         
-        // Extract unique providers for the dropdown
         const uniqueProviders = [...new Set(data.courses.map(course => course.provider))];
         setProviders(uniqueProviders);
-        
-        // Find max price for range slider
+
         const maxPrice = Math.max(...data.courses.map(course => parsePriceToNumber(course.price)));
         setPriceRange(maxPrice);
-        
+
         setLoading(false);
       })
       .catch((error) => {
@@ -50,31 +60,33 @@ const Courses = () => {
       });
   }, []);
 
-  // Apply filters whenever any filter value changes
   useEffect(() => {
     if (courses.length === 0) return;
-    
+
     const filtered = courses.filter(course => {
-      // Search filter (title and provider)
       const matchesSearch = searchTerm === '' || 
         course.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         course.provider.toLowerCase().includes(searchTerm.toLowerCase());
-      
-      // Provider filter
+
       const matchesProvider = selectedProvider === '' || 
         course.provider === selectedProvider;
-      
-      // Price filter - convert price string to number
-      const coursePrice = parsePriceToNumber(course.price);
-      const matchesPrice = coursePrice <= priceRange;
-      
+
+      const prices = extractAllPrices(course.price);
+      const isFree = course.price.toLowerCase().includes('free');
+      let matchesPrice = false;
+
+      if (prices.length === 0 && isFree) {
+        matchesPrice = 0 <= priceRange;
+      } else {
+        matchesPrice = prices.some(price => price <= priceRange);
+      }
+
       return matchesSearch && matchesProvider && matchesPrice;
     });
-    
+
     setFilteredCourses(filtered);
   }, [searchTerm, selectedProvider, priceRange, courses]);
 
-  // Reset all filters
   const resetFilters = () => {
     setSearchTerm('');
     setSelectedProvider('');
@@ -94,7 +106,7 @@ const Courses = () => {
       <div className="mt-8 max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Search Input */}
-          <div className="relative">
+          <div>
             <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-1 text-left">
               Search Courses
             </label>
@@ -149,7 +161,7 @@ const Courses = () => {
             />
           </div>
         </div>
-        
+
         {/* Reset Button */}
         <button
           onClick={resetFilters}
@@ -159,16 +171,14 @@ const Courses = () => {
         </button>
       </div>
 
+      {/* Results Section */}
       {loading ? (
-        // Loading spinner while fetching data
         <div className="flex justify-center items-center mt-12">
           <div className="animate-spin h-8 w-8 border-4 border-blue-600 border-t-transparent rounded-full"></div>
         </div>
       ) : error ? (
-        // Show error if there is one
         <div className="text-red-500 mt-4">{error}</div>
       ) : filteredCourses.length === 0 ? (
-        // No results found
         <div className="mt-12 text-gray-600">
           <p>No courses match your current filters.</p>
           <button 
