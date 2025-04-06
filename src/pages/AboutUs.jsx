@@ -1,47 +1,71 @@
-import React from 'react'
-import { useNavigate } from "react-router-dom";
+import React from 'react';
 
 
-function AboutUs() {
-    const navigate = useNavigate();
+const AboutPage = () => {
   return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-blue-50 to-white p-6 text-center">
-          <div className="max-w-3xl bg-white rounded-xl shadow-lg p-8 mx-auto">
-            <h1 className="text-3xl font-bold text-blue-800 mb-2">About Us</h1>
-            <div className="h-1 w-24 bg-blue-500 mx-auto mb-6 rounded-full"></div>
-            
-            <div className="flex flex-col items-center space-y-6">
-              <h2 className="text-2xl text-gray-700 font-semibold">Page Under Maintenance</h2>
-              <p className="text-gray-600 mb-6">
-              We're currently updating this page to bring you the best in educational innovation.
-If you're a university or course provider and want to be featured on EdutechExplorer, please reach out to us.
-We're excited to showcase institutions that are shaping the future of learning!
-              </p>
-              
-              <div className="w-full max-w-md mb-6">
-                <img 
-                  src="/Maintenance-bro.png" 
-                  alt="Maintenance Illustration" 
-                  className="w-full object-contain rounded-lg"
-                />
-              </div>
-              
-              <div className="mt-6">
-                <p className="text-gray-500 text-sm">
-                  Expected completion: Within 48 hours
-                </p>
-                <button className="mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300"
-                        onClick={() => navigate("/")}>
-                  Go to Home
-                </button>
-              </div>
-            </div>
-          </div>
-          
-          
+    <div className="max-w-5xl mx-auto px-4  py-10 space-y-12">
+      {/* About Us Section */}
+      <section className="grid md:grid-cols-2 gap-6 items-center">
+        <img
+          src="/About us page-cuate.png"
+          alt="About Us"
+          className="w-full h-auto"
+        />
+        <div>
+          <h2 className="text-3xl font-bold mb-4">About Us</h2>
+          <p className="text-lg text-gray-700">
+            <strong>EduTech Explorer</strong> is your go-to platform for discovering top universities,
+            courses, and trending tech topics. We help learners find the best academic paths aligned
+            with their career dreams—whether you're exploring higher education or the latest in tech.
+          </p>
+          <p className="mt-4 text-lg text-gray-700">
+            We curate insightful content to guide you through choosing the right university or course
+            to boost your future in technology and beyond.
+          </p>
         </div>
-      );
-  
-}
+      </section>
 
-export default AboutUs;
+      {/* How We Can Help Section */}
+      <section className="items-center text-center bg-gradient-to-r from-blue-300 rounded-full  py-10 text-black">
+        <div>
+          <h2 className="text-3xl font-bold mb-4">How We Can Help</h2>
+          <p className="text-lg w-full md:w-3/4 mx-auto mb-4">
+            Looking for the perfect course or university? We spotlight educational institutions and
+            tech trends to support your journey, helping you make informed decisions with confidence.
+          </p>
+        </div>
+       
+      </section>
+
+      {/* Contact Us Section */}
+      <section className="grid md:grid-cols-2 gap-6 items-center">
+
+        <div>
+        <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
+        <p className="text-lg text-gray-700 mb-4">
+          Are you a university or course provider? Want to feature your programs on our platform?
+        </p>
+        <div className=" rounded-xl p-4 space-y-4 max-w-md">
+          <div className="flex items-center gap-3">
+            <span className="text-blue-500">📧</span>
+            <span className="text-gray-800">nestor.musanzivwa@gmail.com</span>
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="text-green-500">📞</span>
+            <span className="text-gray-800">+250 791 091 816</span>
+          </div>
+        </div>
+        </div>
+
+        <img
+          src="/Mention-bro.png"
+          alt="How We Help"
+          className="w-full h-auto"
+        />
+    </section>
+
+    </div>
+  );
+};
+
+export default AboutPage;
