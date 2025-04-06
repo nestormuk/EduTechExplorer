@@ -12,7 +12,7 @@ const AboutPage = () => {
           className="w-full h-auto"
         />
         <div>
-          <h2 className="text-3xl font-bold mb-4">About Us</h2>
+          {/* <h2 className="text-3xl font-bold mb-4">About Us</h2> */}
           <p className="text-lg text-gray-700">
             <strong>EduTech Explorer</strong> is your go-to platform for discovering top universities,
             courses, and trending tech topics. We help learners find the best academic paths aligned
@@ -28,7 +28,7 @@ const AboutPage = () => {
       {/* How We Can Help Section */}
       <section className="items-center text-center bg-gradient-to-r from-blue-300 rounded-full  py-10 text-black">
         <div>
-          <h2 className="text-3xl font-bold mb-4">How We Can Help</h2>
+          <h2 className="text-3xl font-bold  mb-4">How We Can Help ?</h2>
           <p className="text-lg w-full md:w-3/4 mx-auto mb-4">
             Looking for the perfect course or university? We spotlight educational institutions and
             tech trends to support your journey, helping you make informed decisions with confidence.
